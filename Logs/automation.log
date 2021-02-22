@@ -1,0 +1,277 @@
+02/14/2021 04:29:28 PM: INFO ********************test_login_ddt*********************
+02/14/2021 04:29:28 PM: INFO ********************Verifying Test Login title*********************
+02/14/2021 04:29:32 PM: INFO Number of rows in the excel 5
+02/14/2021 04:29:32 PM: INFO admin@yourstore.com
+02/14/2021 04:29:32 PM: INFO admin
+02/14/2021 04:29:42 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:29:45 PM: INFO admin@yourstore.com
+02/14/2021 04:29:45 PM: INFO admn
+02/14/2021 04:29:51 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:29:51 PM: INFO admn@yourstore.com
+02/14/2021 04:29:51 PM: INFO admn
+02/14/2021 04:29:59 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:29:59 PM: INFO adman@yourstore.com
+02/14/2021 04:29:59 PM: INFO admn
+02/14/2021 04:30:05 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:30:05 PM: INFO Login DDT Test passed
+02/14/2021 04:30:05 PM: INFO ******************** End of Test_002_DDT_Login *********************
+02/14/2021 04:43:50 PM: INFO ********************test_login_ddt*********************
+02/14/2021 04:43:50 PM: INFO ********************Verifying Test Login title*********************
+02/14/2021 04:43:56 PM: INFO Number of rows in the excel 5
+02/14/2021 04:43:56 PM: INFO admin@yourstore.com
+02/14/2021 04:43:56 PM: INFO admin
+02/14/2021 04:44:07 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:44:09 PM: INFO admin@yourstore.com
+02/14/2021 04:44:09 PM: INFO admn
+02/14/2021 04:44:15 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:44:15 PM: INFO admn@yourstore.com
+02/14/2021 04:44:15 PM: INFO admn
+02/14/2021 04:44:21 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:44:21 PM: INFO adman@yourstore.com
+02/14/2021 04:44:21 PM: INFO admn
+02/14/2021 04:44:27 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 04:44:27 PM: INFO Login DDT Test passed
+02/14/2021 04:44:27 PM: INFO ******************** End of Test_002_DDT_Login *********************
+02/14/2021 09:28:42 PM: DEBUG POST http://127.0.0.1:64736/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+02/14/2021 09:28:42 PM: DEBUG Starting new HTTP connection (1): 127.0.0.1:64736
+02/14/2021 09:28:43 PM: DEBUG http://127.0.0.1:64736 "POST /session HTTP/1.1" 200 756
+02/14/2021 09:28:43 PM: DEBUG Finished Request
+02/14/2021 09:28:43 PM: INFO ********************test_login_ddt*********************
+02/14/2021 09:28:43 PM: INFO ********************Verifying Test Login title*********************
+02/14/2021 09:28:43 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/url {"url": "https://admin-demo.nopcommerce.com/"}
+02/14/2021 09:28:48 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/url HTTP/1.1" 200 14
+02/14/2021 09:28:48 PM: DEBUG Finished Request
+02/14/2021 09:28:48 PM: INFO Number of rows in the excel 5
+02/14/2021 09:28:48 PM: INFO admin@yourstore.com
+02/14/2021 09:28:48 PM: INFO admin
+02/14/2021 09:28:48 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/be7ae523-7140-475a-abf3-2bf717af504f/clear {"id": "be7ae523-7140-475a-abf3-2bf717af504f"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/be7ae523-7140-475a-abf3-2bf717af504f/clear HTTP/1.1" 200 14
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/be7ae523-7140-475a-abf3-2bf717af504f/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "be7ae523-7140-475a-abf3-2bf717af504f"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/be7ae523-7140-475a-abf3-2bf717af504f/value HTTP/1.1" 200 14
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/662cecfe-b01e-4953-aa5c-dddd581b6d4f/clear {"id": "662cecfe-b01e-4953-aa5c-dddd581b6d4f"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/662cecfe-b01e-4953-aa5c-dddd581b6d4f/clear HTTP/1.1" 200 14
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/662cecfe-b01e-4953-aa5c-dddd581b6d4f/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "662cecfe-b01e-4953-aa5c-dddd581b6d4f"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/662cecfe-b01e-4953-aa5c-dddd581b6d4f/value HTTP/1.1" 200 14
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "xpath", "value": "//input[@type='submit']"}
+02/14/2021 09:28:49 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:28:49 PM: DEBUG Finished Request
+02/14/2021 09:28:49 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/0303014c-b51a-4578-aef2-f1f7d36bb086/click {"id": "0303014c-b51a-4578-aef2-f1f7d36bb086"}
+02/14/2021 09:28:53 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/0303014c-b51a-4578-aef2-f1f7d36bb086/click HTTP/1.1" 200 14
+02/14/2021 09:28:53 PM: DEBUG Finished Request
+02/14/2021 09:28:58 PM: DEBUG GET http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/title {}
+02/14/2021 09:28:58 PM: DEBUG http://127.0.0.1:64736 "GET /session/4bcfd339e5ef31ba04197e51f53e082e/title HTTP/1.1" 200 50
+02/14/2021 09:28:58 PM: DEBUG Finished Request
+02/14/2021 09:28:58 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 09:28:58 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "link text", "value": "Logout"}
+02/14/2021 09:28:58 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:28:58 PM: DEBUG Finished Request
+02/14/2021 09:28:58 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/e54a85ad-4ebe-4633-a533-46d44ec103ef/click {"id": "e54a85ad-4ebe-4633-a533-46d44ec103ef"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/e54a85ad-4ebe-4633-a533-46d44ec103ef/click HTTP/1.1" 200 14
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: INFO admin@yourstore.com
+02/14/2021 09:29:00 PM: INFO admn
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/clear {"id": "12e5444e-dfdc-4168-a08e-743b800291b4"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/clear HTTP/1.1" 200 14
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "12e5444e-dfdc-4168-a08e-743b800291b4"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/value HTTP/1.1" 200 14
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/clear {"id": "445c1837-86c8-40c4-a54a-eb1c0034891f"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/clear HTTP/1.1" 200 14
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/value {"text": "admn", "value": ["a", "d", "m", "n"], "id": "445c1837-86c8-40c4-a54a-eb1c0034891f"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/value HTTP/1.1" 200 14
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "xpath", "value": "//input[@type='submit']"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:00 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/ede4ea70-ec22-4a0f-95e6-299475db0831/click {"id": "ede4ea70-ec22-4a0f-95e6-299475db0831"}
+02/14/2021 09:29:00 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/ede4ea70-ec22-4a0f-95e6-299475db0831/click HTTP/1.1" 200 14
+02/14/2021 09:29:00 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG GET http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/title {}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "GET /session/4bcfd339e5ef31ba04197e51f53e082e/title HTTP/1.1" 200 29
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 09:29:05 PM: INFO admn@yourstore.com
+02/14/2021 09:29:05 PM: INFO admn
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/clear {"id": "12e5444e-dfdc-4168-a08e-743b800291b4"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/clear HTTP/1.1" 200 14
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/value {"text": "admn@yourstore.com", "value": ["a", "d", "m", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "12e5444e-dfdc-4168-a08e-743b800291b4"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/12e5444e-dfdc-4168-a08e-743b800291b4/value HTTP/1.1" 200 14
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/clear {"id": "445c1837-86c8-40c4-a54a-eb1c0034891f"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/clear HTTP/1.1" 200 14
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/value {"text": "admn", "value": ["a", "d", "m", "n"], "id": "445c1837-86c8-40c4-a54a-eb1c0034891f"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/445c1837-86c8-40c4-a54a-eb1c0034891f/value HTTP/1.1" 200 14
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "xpath", "value": "//input[@type='submit']"}
+02/14/2021 09:29:05 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:05 PM: DEBUG Finished Request
+02/14/2021 09:29:05 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/ede4ea70-ec22-4a0f-95e6-299475db0831/click {"id": "ede4ea70-ec22-4a0f-95e6-299475db0831"}
+02/14/2021 09:29:06 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/ede4ea70-ec22-4a0f-95e6-299475db0831/click HTTP/1.1" 200 14
+02/14/2021 09:29:06 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG GET http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/title {}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "GET /session/4bcfd339e5ef31ba04197e51f53e082e/title HTTP/1.1" 200 29
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 09:29:11 PM: INFO adman@yourstore.com
+02/14/2021 09:29:11 PM: INFO admn
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/33b39b3b-59a7-420f-9e43-fe35ef3d2e42/clear {"id": "33b39b3b-59a7-420f-9e43-fe35ef3d2e42"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/33b39b3b-59a7-420f-9e43-fe35ef3d2e42/clear HTTP/1.1" 200 14
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/33b39b3b-59a7-420f-9e43-fe35ef3d2e42/value {"text": "adman@yourstore.com", "value": ["a", "d", "m", "a", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "33b39b3b-59a7-420f-9e43-fe35ef3d2e42"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/33b39b3b-59a7-420f-9e43-fe35ef3d2e42/value HTTP/1.1" 200 14
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/314a2ce7-d389-466e-9d7c-c1249494c9e9/clear {"id": "314a2ce7-d389-466e-9d7c-c1249494c9e9"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/314a2ce7-d389-466e-9d7c-c1249494c9e9/clear HTTP/1.1" 200 14
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/314a2ce7-d389-466e-9d7c-c1249494c9e9/value {"text": "admn", "value": ["a", "d", "m", "n"], "id": "314a2ce7-d389-466e-9d7c-c1249494c9e9"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/314a2ce7-d389-466e-9d7c-c1249494c9e9/value HTTP/1.1" 200 14
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element {"using": "xpath", "value": "//input[@type='submit']"}
+02/14/2021 09:29:11 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element HTTP/1.1" 200 88
+02/14/2021 09:29:11 PM: DEBUG Finished Request
+02/14/2021 09:29:11 PM: DEBUG POST http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/element/d252d2ec-d0f3-477f-8125-6238b45f80cc/click {"id": "d252d2ec-d0f3-477f-8125-6238b45f80cc"}
+02/14/2021 09:29:12 PM: DEBUG http://127.0.0.1:64736 "POST /session/4bcfd339e5ef31ba04197e51f53e082e/element/d252d2ec-d0f3-477f-8125-6238b45f80cc/click HTTP/1.1" 200 14
+02/14/2021 09:29:12 PM: DEBUG Finished Request
+02/14/2021 09:29:17 PM: DEBUG GET http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/title {}
+02/14/2021 09:29:17 PM: DEBUG http://127.0.0.1:64736 "GET /session/4bcfd339e5ef31ba04197e51f53e082e/title HTTP/1.1" 200 29
+02/14/2021 09:29:17 PM: DEBUG Finished Request
+02/14/2021 09:29:17 PM: INFO ******************** test_login is PASSED *********************
+02/14/2021 09:29:17 PM: INFO Login DDT Test passed
+02/14/2021 09:29:17 PM: DEBUG DELETE http://127.0.0.1:64736/session/4bcfd339e5ef31ba04197e51f53e082e/window {}
+02/14/2021 09:29:17 PM: DEBUG http://127.0.0.1:64736 "DELETE /session/4bcfd339e5ef31ba04197e51f53e082e/window HTTP/1.1" 200 12
+02/14/2021 09:29:17 PM: DEBUG Finished Request
+02/14/2021 09:29:17 PM: INFO ******************** End of Test_002_DDT_Login *********************
+02/18/2021 12:24:53 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 12:25:04 PM: INFO ********************Login Successful*********************
+02/18/2021 12:29:15 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 12:29:20 PM: INFO ********************Login Successful*********************
+02/18/2021 12:31:42 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 12:31:51 PM: INFO ********************Login Successful*********************
+02/18/2021 12:31:55 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 12:34:29 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 12:34:37 PM: INFO ********************Login Successful*********************
+02/18/2021 12:34:42 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 01:44:08 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 01:44:18 PM: INFO ********************Login Successful*********************
+02/18/2021 01:44:23 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 01:49:15 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 01:49:28 PM: INFO ********************Login Successful*********************
+02/18/2021 01:49:34 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 01:50:44 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 01:50:58 PM: INFO ********************Login Successful*********************
+02/18/2021 01:51:05 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 01:52:37 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 01:52:46 PM: INFO ********************Login Successful*********************
+02/18/2021 01:52:53 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 01:58:14 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 01:58:22 PM: INFO ********************Login Successful*********************
+02/18/2021 01:58:27 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 01:58:30 PM: INFO ********************Entered all the customer INfo*********************
+02/18/2021 02:07:00 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 02:07:11 PM: INFO ********************Login Successful*********************
+02/18/2021 02:07:15 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 02:07:18 PM: INFO ********************Entered all the customer INfo*********************
+02/18/2021 02:07:18 PM: INFO *************Added the customer successfully*************
+02/18/2021 02:08:07 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 02:08:17 PM: INFO ********************Login Successful*********************
+02/18/2021 02:08:24 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 02:08:27 PM: INFO ********************Entered all the customer INfo*********************
+02/18/2021 02:08:27 PM: INFO *************Added the customer successfully*************
+02/18/2021 02:11:42 PM: INFO ********************Test_003_AddCustomer*********************
+02/18/2021 02:11:52 PM: INFO ********************Login Successful*********************
+02/18/2021 02:11:57 PM: INFO ********************Providing Cutomer INfo*********************
+02/18/2021 02:12:01 PM: INFO ********************Entered all the customer INfo*********************
+02/18/2021 02:12:01 PM: INFO *************Added the customer successfully*************
+02/18/2021 02:12:02 PM: INFO Ending Add Customer TestCase
+02/20/2021 02:34:59 PM: INFO ********************Test_003_AddCustomer*********************
+02/20/2021 02:35:08 PM: INFO ********************Login Successful*********************
+02/20/2021 02:35:12 PM: INFO ********************Providing Cutomer INfo*********************
+02/20/2021 02:35:15 PM: INFO ********************Entered all the customer INfo*********************
+02/20/2021 02:35:15 PM: INFO *************Added the customer successfully*************
+02/20/2021 02:35:15 PM: INFO Ending Add Customer TestCase
+02/20/2021 02:35:17 PM: INFO ********************test_login*********************
+02/20/2021 02:35:17 PM: INFO ********************Verifying Test Login title*********************
+02/20/2021 02:35:25 PM: INFO ******************** test_login is PASSED *********************
+02/20/2021 02:39:18 PM: INFO ********************test_homePageTitle*********************
+02/20/2021 02:39:18 PM: INFO ********************Verifying Home Page Title*********************
+02/20/2021 02:39:26 PM: INFO ******************** test_homePageTitle is passed *********************
+02/20/2021 02:39:27 PM: INFO ********************test_login*********************
+02/20/2021 02:39:27 PM: INFO ********************Verifying Test Login title*********************
+02/20/2021 02:39:36 PM: INFO ******************** test_login is PASSED *********************
+02/20/2021 02:39:38 PM: INFO ********************test_login_ddt*********************
+02/20/2021 02:39:38 PM: INFO ********************Verifying Test Login title*********************
+02/20/2021 02:39:45 PM: INFO Number of rows in the excel 5
+02/20/2021 02:39:45 PM: INFO admin@yourstore.com
+02/20/2021 02:39:45 PM: INFO admin
+02/20/2021 02:39:54 PM: INFO ******************** test_login is PASSED *********************
+02/20/2021 02:39:56 PM: INFO admin@yourstore.com
+02/20/2021 02:39:56 PM: INFO admn
+02/20/2021 02:40:01 PM: INFO ******************** test_login is PASSED *********************
+02/20/2021 02:40:01 PM: INFO admn@yourstore.com
+02/20/2021 02:40:01 PM: INFO admn
+02/20/2021 02:40:08 PM: INFO ******************** test_login is PASSED *********************
+02/20/2021 02:40:08 PM: INFO adman@yourstore.com
+02/20/2021 02:40:08 PM: INFO admn
+02/20/2021 02:40:13 PM: INFO ******************** test_login is PASSED *********************
+02/20/2021 02:40:13 PM: INFO Login DDT Test passed
+02/20/2021 02:40:14 PM: INFO ******************** End of Test_002_DDT_Login *********************
+02/20/2021 06:04:28 PM: INFO ********************Test_003_AddCustomer*********************
+02/20/2021 06:04:34 PM: INFO ********************Login Successful*********************
+02/20/2021 06:04:41 PM: INFO ********************test_login*********************
+02/20/2021 06:04:41 PM: INFO ********************Verifying Test Login title*********************
